@@ -1,2 +1,6 @@
-# emails_github_filesystem_rail_12306_terminal_fetch_2341-k9m2-jscott-site
-Personal academic site of Jeffrey Scott (publication entries in _publications/).
+# Personal academic site
+
+Publication entries live in `_publications/`. Each entry is a Markdown file with
+YAML front matter (`title`, `venue`, `citation` and an optional `codeurl`).
+The `codeurl` field is rendered as a "Code" button by
+`_includes/archive-single.html`.
